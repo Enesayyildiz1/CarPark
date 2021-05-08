@@ -1,5 +1,6 @@
 ﻿using CarPark.User.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -7,7 +8,9 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace CarPark.User.Controllers
@@ -15,16 +18,27 @@ namespace CarPark.User.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IStringLocalizer<HomeController> _localizer;
         private readonly MongoClient client;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IStringLocalizer<HomeController> localizer)
         {
             _logger = logger;
             client = new MongoClient("mongodb+srv://enesayyildiz:yozgatordu@carparkcluster.bmiv4.mongodb.net/CarParkDB?retryWrites=true&w=majority");
+            _localizer = localizer;
         }
 
         public IActionResult Index()
         {
+            var say_Hello_value = _localizer["Say_Hello"];
+
+
+            var cultureInfo = CultureInfo.GetCultureInfo("en-US");
+
+            Thread.CurrentThread.CurrentCulture = cultureInfo;
+            Thread.CurrentThread.CurrentUICulture = cultureInfo;
+            
+            var say_Hello_value2 = _localizer["Say_Hello"];
             //var customer = new Customer()
             //{
             //    Id = 1,
@@ -35,9 +49,9 @@ namespace CarPark.User.Controllers
             //var customer2 = new Customer()
             //{
             //    Id = 2,
-            //    Name = "Mahmut",
-            //    Surname = "Yıldız",
-            //    Age = 28
+            //    Name = "Ege",
+            //    Surname = "Gökmen",
+            //    Age = 35
             //};
             //_logger.LogError("Customer  da bir hata oluştu {@customer}",customer2);
 
