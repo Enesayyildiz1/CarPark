@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using CarPark.User.Resources;
 using System.Reflection;
+using Microsoft.AspNetCore.Localization.Routing;
 
 namespace CarPark.User
 {
@@ -50,12 +51,16 @@ namespace CarPark.User
                 opt.DefaultRequestCulture = new RequestCulture("tr-TR");
                 opt.SupportedCultures = supportedCultures;
                 opt.SupportedUICultures = supportedCultures;
-                opt.RequestCultureProviders = new List<IRequestCultureProvider>
+                //opt.RequestCultureProviders = new List<IRequestCultureProvider>
+                //{
+                //    new QueryStringRequestCultureProvider(),
+                //    new CookieRequestCultureProvider(),
+                //    new AcceptLanguageHeaderRequestCultureProvider(),
+                //};
+                opt.RequestCultureProviders = new[] {new RouteDataRequestCultureProvider()
                 {
-                    new QueryStringRequestCultureProvider(),
-                    new CookieRequestCultureProvider(),
-                    new AcceptLanguageHeaderRequestCultureProvider(),
-                };
+                    Options=opt
+                }};
             });
         }
 
@@ -85,7 +90,7 @@ namespace CarPark.User
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{culture}/{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

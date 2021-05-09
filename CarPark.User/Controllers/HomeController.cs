@@ -30,15 +30,15 @@ namespace CarPark.User.Controllers
 
         public IActionResult Index()
         {
-            var say_Hello_value = _localizer["Say_Hello"];
+            //var say_Hello_value = _localizer["Say_Hello"];
 
 
-            var cultureInfo = CultureInfo.GetCultureInfo("en-US");
+            //var cultureInfo = CultureInfo.GetCultureInfo("en-US");
 
-            Thread.CurrentThread.CurrentCulture = cultureInfo;
-            Thread.CurrentThread.CurrentUICulture = cultureInfo;
+            //Thread.CurrentThread.CurrentCulture = cultureInfo;
+            //Thread.CurrentThread.CurrentUICulture = cultureInfo;
             
-            var say_Hello_value2 = _localizer["Say_Hello"];
+            //var say_Hello_value2 = _localizer["Say_Hello"];
             //var customer = new Customer()
             //{
             //    Id = 1,
