@@ -1,4 +1,5 @@
-﻿using CarPark.User.Models;
+﻿using CarPark.Entities.Concrete;
+using CarPark.User.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
@@ -59,8 +60,33 @@ namespace CarPark.User.Controllers
             var database = client.GetDatabase("CarParkDB");
             var jsonString = System.IO.File.ReadAllText("cities.json");
             var citiesModel = JsonConvert.DeserializeObject<List<Cities>>(jsonString);
-            var collection = database.GetCollection<Test>("Test");
+            var collection = database.GetCollection<City>("City");
+            foreach (var item in citiesModel)
+            {
+                var city = new City()
+                {
+                    Id = ObjectId.GenerateNewId(),
+                    Latitude= item.Latitude,
+                    Logitude = item.Longtitude,
+                    Name=item.Name,
+                    Plate=item.Plate,
+                    Counties=new List<County>()
 
+
+
+                };
+                foreach (var county in item.Counties)
+                {
+                    city.Counties.Add(new County()
+                    {
+                        Id = ObjectId.GenerateNewId(),
+                        Name=county
+
+                    });
+                }
+                collection.InsertOne(city);
+            }
+            
             //var test = new Test()
             //{
             //    _Id = ObjectId.GenerateNewId(),

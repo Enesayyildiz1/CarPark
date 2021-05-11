@@ -2486,3 +2486,128 @@ System.InvalidOperationException: The view 'Index' was not found. The following 
 2021-05-10 00:20:52.347 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 29.5776ms
 2021-05-10 00:20:52.349 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
 2021-05-10 00:20:52.352 +03:00 [INF] Request finished in 46.5995ms 200 text/html; charset=utf-8
+2021-05-10 23:49:33.406 +03:00 [INF] User profile is available. Using 'C:\Users\Enes\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-10 23:49:35.132 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-10 23:49:35.137 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-10 23:49:35.141 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-10 23:49:35.145 +03:00 [INF] Hosting environment: Development
+2021-05-10 23:49:35.148 +03:00 [INF] Content root path: C:\Users\Enes\source\repos\CarPark\CarPark.User
+2021-05-10 23:49:38.093 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-10 23:49:38.184 +03:00 [INF] Request finished in 92.412ms 404 
+2021-05-10 23:49:54.150 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/tr-TR/home/index  
+2021-05-10 23:49:54.160 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-10 23:49:55.528 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-10 23:49:56.412 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-10 23:49:56.563 +03:00 [INF] Executed ViewResult - view Index executed in 155.5543ms.
+2021-05-10 23:49:56.567 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 1035.255ms
+2021-05-10 23:49:56.569 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-10 23:49:56.573 +03:00 [INF] Request finished in 2422.6965ms 200 text/html; charset=utf-8
+2021-05-10 23:49:56.626 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-05-10 23:49:56.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-05-10 23:49:56.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-05-10 23:49:56.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-05-10 23:49:56.628 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2021-05-10 23:49:56.646 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\js\site.js'
+2021-05-10 23:49:56.649 +03:00 [INF] Request finished in 20.542ms 200 application/javascript
+2021-05-10 23:49:56.686 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-05-10 23:49:56.690 +03:00 [INF] Request finished in 62.9451ms 200 application/javascript
+2021-05-10 23:49:56.693 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-05-10 23:49:56.699 +03:00 [INF] Request finished in 72.6135ms 200 text/css
+2021-05-10 23:49:56.709 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-05-10 23:49:56.715 +03:00 [INF] Request finished in 87.7452ms 200 application/javascript
+2021-05-10 23:49:56.724 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\css\site.css'
+2021-05-10 23:49:56.728 +03:00 [INF] Request finished in 101.0567ms 200 text/css
+2021-05-11 00:03:49.884 +03:00 [INF] User profile is available. Using 'C:\Users\Enes\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-11 00:03:50.262 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-11 00:03:50.264 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-11 00:03:50.266 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-11 00:03:50.269 +03:00 [INF] Hosting environment: Development
+2021-05-11 00:03:50.270 +03:00 [INF] Content root path: C:\Users\Enes\source\repos\CarPark\CarPark.User
+2021-05-11 00:03:51.339 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-11 00:03:51.380 +03:00 [INF] Request finished in 44.1076ms 404 
+2021-05-11 00:03:59.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/tr-TR/home/index  
+2021-05-11 00:03:59.165 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-11 00:03:59.210 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-11 00:04:07.421 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-11 00:04:07.526 +03:00 [INF] Executed ViewResult - view Index executed in 112.2099ms.
+2021-05-11 00:04:07.531 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 8317.3315ms
+2021-05-11 00:04:07.533 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-11 00:04:07.536 +03:00 [INF] Request finished in 8388.3788ms 200 text/html; charset=utf-8
+2021-05-11 00:04:07.603 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-05-11 00:04:07.608 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-05-11 00:04:07.603 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-05-11 00:04:07.608 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-05-11 00:04:07.609 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2021-05-11 00:04:07.627 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\css\site.css'
+2021-05-11 00:04:07.627 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\js\site.js'
+2021-05-11 00:04:07.639 +03:00 [INF] Request finished in 29.8774ms 200 application/javascript
+2021-05-11 00:04:07.639 +03:00 [INF] Request finished in 35.8629ms 200 text/css
+2021-05-11 00:04:07.643 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-05-11 00:04:07.643 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-05-11 00:04:07.643 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-05-11 00:04:07.646 +03:00 [INF] Request finished in 41.7145ms 200 application/javascript
+2021-05-11 00:04:07.647 +03:00 [INF] Request finished in 44.789ms 200 text/css
+2021-05-11 00:04:07.650 +03:00 [INF] Request finished in 42.3636ms 200 application/javascript
+2021-05-11 00:07:23.147 +03:00 [INF] User profile is available. Using 'C:\Users\Enes\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-11 00:07:23.620 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-11 00:07:23.623 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-11 00:07:23.625 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-11 00:07:23.627 +03:00 [INF] Hosting environment: Development
+2021-05-11 00:07:23.629 +03:00 [INF] Content root path: C:\Users\Enes\source\repos\CarPark\CarPark.User
+2021-05-11 00:07:24.630 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-11 00:07:24.670 +03:00 [INF] Request finished in 42.9669ms 404 
+2021-05-11 00:07:30.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/tr-TR/home/index  
+2021-05-11 00:07:30.699 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-11 00:07:30.746 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-11 00:08:57.265 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-11 00:08:57.366 +03:00 [INF] Executed ViewResult - view Index executed in 113.8466ms.
+2021-05-11 00:08:57.370 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 86620.35ms
+2021-05-11 00:08:57.372 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-11 00:08:57.375 +03:00 [INF] Request finished in 86692.2135ms 200 text/html; charset=utf-8
+2021-05-11 00:08:57.428 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-05-11 00:08:57.435 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2021-05-11 00:08:57.435 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-05-11 00:08:57.435 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-05-11 00:08:57.435 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-05-11 00:08:57.459 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\js\site.js'
+2021-05-11 00:08:57.459 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\css\site.css'
+2021-05-11 00:08:57.479 +03:00 [INF] Request finished in 43.7935ms 200 application/javascript
+2021-05-11 00:08:57.480 +03:00 [INF] Request finished in 45.1688ms 200 text/css
+2021-05-11 00:08:57.486 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-05-11 00:08:57.486 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-05-11 00:08:57.486 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-05-11 00:08:57.491 +03:00 [INF] Request finished in 56.2739ms 200 application/javascript
+2021-05-11 00:08:57.492 +03:00 [INF] Request finished in 63.9992ms 200 text/css
+2021-05-11 00:08:57.494 +03:00 [INF] Request finished in 59.4774ms 200 application/javascript
+2021-05-11 00:10:54.290 +03:00 [INF] User profile is available. Using 'C:\Users\Enes\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-11 00:10:54.641 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-11 00:10:54.643 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-11 00:10:54.646 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-11 00:10:54.647 +03:00 [INF] Hosting environment: Development
+2021-05-11 00:10:54.648 +03:00 [INF] Content root path: C:\Users\Enes\source\repos\CarPark\CarPark.User
+2021-05-11 00:10:55.457 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-11 00:10:55.502 +03:00 [INF] Request finished in 46.9937ms 404 
+2021-05-11 00:11:01.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/tr-TR/home/index  
+2021-05-11 00:11:01.728 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-11 00:11:01.779 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-11 00:11:11.766 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-11 00:11:11.980 +03:00 [INF] Executed ViewResult - view Index executed in 224.8357ms.
+2021-05-11 00:11:11.991 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 10207.794ms
+2021-05-11 00:11:11.996 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-11 00:11:12.008 +03:00 [INF] Request finished in 10298.2721ms 200 text/html; charset=utf-8
+2021-05-11 00:11:12.117 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-05-11 00:11:12.117 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-05-11 00:11:12.117 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-05-11 00:11:12.147 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\css\site.css'
+2021-05-11 00:11:12.165 +03:00 [INF] Request finished in 48.747ms 200 text/css
+2021-05-11 00:11:12.176 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-05-11 00:11:12.178 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-05-11 00:11:12.178 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-05-11 00:11:12.184 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-05-11 00:11:12.187 +03:00 [INF] Request finished in 70.7732ms 200 text/css
+2021-05-11 00:11:12.188 +03:00 [INF] Request finished in 71.54ms 200 application/javascript
+2021-05-11 00:11:12.194 +03:00 [INF] Request finished in 18.1834ms 200 application/javascript
+2021-05-11 00:11:12.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2021-05-11 00:11:12.213 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\js\site.js'
+2021-05-11 00:11:12.221 +03:00 [INF] Request finished in 20.2753ms 200 application/javascript
+2021-05-11 00:12:00.650 +03:00 [INF] Application is shutting down...
