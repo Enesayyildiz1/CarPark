@@ -1,4 +1,6 @@
-﻿using CarPark.User.Models;
+﻿using CarPark.Core.Repository.Abstract;
+using CarPark.Entities.Concrete;
+using CarPark.User.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 using System;
@@ -13,10 +15,12 @@ namespace CarPark.User.Controllers
     public class UserController : Controller
     {
         private readonly IStringLocalizer<UserController> _localizer;
+        private readonly IRepository<Test> _personalRepository;
 
-        public UserController(IStringLocalizer<UserController> localizer)
+        public UserController(IStringLocalizer<UserController> localizer, IRepository<Test> personalRepository)
         {
             _localizer = localizer;
+            _personalRepository = personalRepository;
         }
 
         public IActionResult Index()
@@ -37,16 +41,21 @@ namespace CarPark.User.Controllers
         public IActionResult Create()
 
         {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Create(UserCreateRequestModel requestModel)
+            var personal1 = _personalRepository.InsertOne(new Test
+            { Age=19}
+                
 
-        {
-            return View(requestModel);
-           
-           
+
+            );
+            var personal2 = _personalRepository.InsertOne(new Test
+            {
+              Age=29
+
+            });
+            return View();
+            
         }
+      
 
 
     }

@@ -2611,3 +2611,214 @@ System.InvalidOperationException: The view 'Index' was not found. The following 
 2021-05-11 00:11:12.213 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\js\site.js'
 2021-05-11 00:11:12.221 +03:00 [INF] Request finished in 20.2753ms 200 application/javascript
 2021-05-11 00:12:00.650 +03:00 [INF] Application is shutting down...
+2021-05-12 22:41:01.931 +03:00 [INF] User profile is available. Using 'C:\Users\Enes\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-12 22:41:03.745 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-12 22:41:03.747 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-12 22:41:03.750 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 22:41:03.752 +03:00 [INF] Hosting environment: Development
+2021-05-12 22:41:03.753 +03:00 [INF] Content root path: C:\Users\Enes\source\repos\CarPark\CarPark.User
+2021-05-12 22:41:04.764 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-12 22:41:04.807 +03:00 [INF] Request finished in 47.9026ms 404 
+2021-05-12 22:41:11.382 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/tr-TR/home/index  
+2021-05-12 22:41:11.400 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-12 22:41:12.041 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-12 22:41:18.857 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/tr-TR/user/create  
+2021-05-12 22:41:18.862 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:41:18.867 +03:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller CarPark.User.Controllers.UserController (CarPark.User).
+2021-05-12 22:41:18.961 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-12 22:41:19.322 +03:00 [INF] Executed ViewResult - view Create executed in 445.8006ms.
+2021-05-12 22:41:19.328 +03:00 [INF] Executed action CarPark.User.Controllers.UserController.Create (CarPark.User) in 458.4345ms
+2021-05-12 22:41:19.330 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:41:19.334 +03:00 [INF] Request finished in 477.8147ms 200 text/html; charset=utf-8
+2021-05-12 22:41:19.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-05-12 22:41:19.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-05-12 22:41:19.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-05-12 22:41:19.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-05-12 22:41:19.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2021-05-12 22:41:19.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.min.js  
+2021-05-12 22:41:19.553 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\js\site.js'
+2021-05-12 22:41:19.557 +03:00 [INF] Request finished in 177.9322ms 200 application/javascript
+2021-05-12 22:41:19.559 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js  
+2021-05-12 22:41:19.589 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2021-05-12 22:41:19.593 +03:00 [INF] Request finished in 212.9725ms 200 application/javascript
+2021-05-12 22:41:19.634 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-05-12 22:41:19.640 +03:00 [INF] Request finished in 260.5969ms 200 application/javascript
+2021-05-12 22:41:19.647 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2021-05-12 22:41:19.655 +03:00 [INF] Request finished in 95.3224ms 200 application/javascript
+2021-05-12 22:41:19.695 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-05-12 22:41:19.699 +03:00 [INF] Request finished in 320.4704ms 200 text/css
+2021-05-12 22:41:19.700 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-05-12 22:41:19.706 +03:00 [INF] Request finished in 327.0752ms 200 application/javascript
+2021-05-12 22:41:19.730 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\css\site.css'
+2021-05-12 22:41:19.734 +03:00 [INF] Request finished in 354.7729ms 200 text/css
+2021-05-12 22:41:21.200 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-12 22:41:21.212 +03:00 [INF] Executed ViewResult - view Index executed in 15.3823ms.
+2021-05-12 22:41:21.215 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 9169.5878ms
+2021-05-12 22:41:21.217 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-12 22:41:21.219 +03:00 [INF] Request finished in 9837.5705ms 200 text/html; charset=utf-8
+2021-05-12 22:41:21.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-05-12 22:41:21.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-05-12 22:41:21.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-05-12 22:41:21.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-05-12 22:41:21.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2021-05-12 22:41:21.258 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-05-12 22:41:21.265 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\css\site.css'
+2021-05-12 22:41:21.266 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\js\site.js'
+2021-05-12 22:41:21.254 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-05-12 22:41:21.267 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-05-12 22:41:21.269 +03:00 [INF] Request finished in 21.9258ms 200 text/css
+2021-05-12 22:41:21.275 +03:00 [INF] Request finished in 27.6455ms 200 text/css
+2021-05-12 22:41:21.279 +03:00 [INF] Request finished in 31.4867ms 200 application/javascript
+2021-05-12 22:41:21.284 +03:00 [INF] Request finished in 36.3028ms 200 application/javascript
+2021-05-12 22:41:21.287 +03:00 [INF] Request finished in 40.1092ms 200 application/javascript
+2021-05-12 22:44:57.670 +03:00 [INF] User profile is available. Using 'C:\Users\Enes\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-12 22:44:58.089 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-12 22:44:58.090 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-12 22:44:58.093 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 22:44:58.094 +03:00 [INF] Hosting environment: Development
+2021-05-12 22:44:58.095 +03:00 [INF] Content root path: C:\Users\Enes\source\repos\CarPark\CarPark.User
+2021-05-12 22:44:59.104 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-12 22:44:59.148 +03:00 [INF] Request finished in 47.4135ms 404 
+2021-05-12 22:45:06.537 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/tr-TR/user/create  
+2021-05-12 22:45:06.555 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:45:06.626 +03:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller CarPark.User.Controllers.UserController (CarPark.User).
+2021-05-12 22:45:06.702 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-12 22:45:07.760 +03:00 [INF] Executed ViewResult - view Create executed in 1063.1185ms.
+2021-05-12 22:45:07.765 +03:00 [INF] Executed action CarPark.User.Controllers.UserController.Create (CarPark.User) in 1134.6751ms
+2021-05-12 22:45:07.767 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:45:07.771 +03:00 [INF] Request finished in 1233.404ms 200 text/html; charset=utf-8
+2021-05-12 22:45:07.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-05-12 22:45:07.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-05-12 22:45:07.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-05-12 22:45:07.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-05-12 22:45:07.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2021-05-12 22:45:07.819 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js  
+2021-05-12 22:45:07.819 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.min.js  
+2021-05-12 22:45:07.846 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2021-05-12 22:45:07.846 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\css\site.css'
+2021-05-12 22:45:07.846 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\js\site.js'
+2021-05-12 22:45:07.873 +03:00 [INF] Request finished in 54.1333ms 200 application/javascript
+2021-05-12 22:45:07.873 +03:00 [INF] Request finished in 54.7341ms 200 text/css
+2021-05-12 22:45:07.873 +03:00 [INF] Request finished in 54.4798ms 200 application/javascript
+2021-05-12 22:45:07.876 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-05-12 22:45:07.876 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-05-12 22:45:07.876 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2021-05-12 22:45:07.876 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-05-12 22:45:07.884 +03:00 [INF] Request finished in 65.6315ms 200 application/javascript
+2021-05-12 22:45:07.886 +03:00 [INF] Request finished in 67.7307ms 200 application/javascript
+2021-05-12 22:45:07.889 +03:00 [INF] Request finished in 70.8596ms 200 application/javascript
+2021-05-12 22:45:07.892 +03:00 [INF] Request finished in 74ms 200 text/css
+2021-05-12 22:46:31.635 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/tr-TR/user/create  
+2021-05-12 22:46:31.639 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:46:31.641 +03:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller CarPark.User.Controllers.UserController (CarPark.User).
+2021-05-12 22:46:31.783 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-12 22:46:31.792 +03:00 [INF] Executed ViewResult - view Create executed in 9.8467ms.
+2021-05-12 22:46:31.798 +03:00 [INF] Executed action CarPark.User.Controllers.UserController.Create (CarPark.User) in 154.738ms
+2021-05-12 22:46:31.800 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:46:31.802 +03:00 [INF] Request finished in 167.5791ms 200 text/html; charset=utf-8
+2021-05-12 22:46:31.859 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-05-12 22:46:31.859 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-05-12 22:46:31.863 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\css\site.css'
+2021-05-12 22:46:31.864 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-05-12 22:46:31.866 +03:00 [INF] Request finished in 7.1277ms 200 text/css
+2021-05-12 22:46:31.869 +03:00 [INF] Request finished in 10.278ms 200 text/css
+2021-05-12 22:46:31.938 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-05-12 22:46:31.989 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\favicon.ico'
+2021-05-12 22:46:31.992 +03:00 [INF] Request finished in 53.7702ms 200 image/x-icon
+2021-05-12 22:47:30.600 +03:00 [INF] User profile is available. Using 'C:\Users\Enes\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-12 22:47:30.966 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-12 22:47:30.968 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-12 22:47:30.970 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 22:47:30.971 +03:00 [INF] Hosting environment: Development
+2021-05-12 22:47:30.972 +03:00 [INF] Content root path: C:\Users\Enes\source\repos\CarPark\CarPark.User
+2021-05-12 22:47:32.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-12 22:47:33.018 +03:00 [INF] Request finished in 113.2952ms 404 
+2021-05-12 22:47:42.498 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/tr-TR/user/create  
+2021-05-12 22:47:42.514 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:47:42.589 +03:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller CarPark.User.Controllers.UserController (CarPark.User).
+2021-05-12 22:47:55.509 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-12 22:47:56.450 +03:00 [INF] Executed ViewResult - view Create executed in 998.2215ms.
+2021-05-12 22:47:56.458 +03:00 [INF] Executed action CarPark.User.Controllers.UserController.Create (CarPark.User) in 13865.1836ms
+2021-05-12 22:47:56.461 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:47:56.465 +03:00 [INF] Request finished in 13966.9544ms 200 text/html; charset=utf-8
+2021-05-12 22:47:56.529 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-05-12 22:47:56.529 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-05-12 22:47:56.530 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2021-05-12 22:47:56.530 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.min.js  
+2021-05-12 22:47:56.529 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-05-12 22:47:56.530 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js  
+2021-05-12 22:47:56.529 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-05-12 22:47:56.555 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\css\site.css'
+2021-05-12 22:47:56.555 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\js\site.js'
+2021-05-12 22:47:56.555 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2021-05-12 22:47:56.581 +03:00 [INF] Request finished in 52.319ms 200 text/css
+2021-05-12 22:47:56.581 +03:00 [INF] Request finished in 51.1686ms 200 application/javascript
+2021-05-12 22:47:56.581 +03:00 [INF] Request finished in 51.8127ms 200 application/javascript
+2021-05-12 22:47:56.583 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-05-12 22:47:56.585 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-05-12 22:47:56.583 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2021-05-12 22:47:56.587 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-05-12 22:47:56.591 +03:00 [INF] Request finished in 61.4739ms 200 application/javascript
+2021-05-12 22:47:56.592 +03:00 [INF] Request finished in 63.4761ms 200 application/javascript
+2021-05-12 22:47:56.594 +03:00 [INF] Request finished in 64.9169ms 200 application/javascript
+2021-05-12 22:47:56.596 +03:00 [INF] Request finished in 67.324ms 200 text/css
+2021-05-12 22:48:27.033 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/tr-TR/user/create  
+2021-05-12 22:48:27.038 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:48:27.040 +03:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller CarPark.User.Controllers.UserController (CarPark.User).
+2021-05-12 22:50:00.181 +03:00 [INF] User profile is available. Using 'C:\Users\Enes\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-12 22:50:00.543 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-12 22:50:00.545 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-12 22:50:00.548 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-12 22:50:00.550 +03:00 [INF] Hosting environment: Development
+2021-05-12 22:50:00.552 +03:00 [INF] Content root path: C:\Users\Enes\source\repos\CarPark\CarPark.User
+2021-05-12 22:50:01.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-12 22:50:01.398 +03:00 [INF] Request finished in 32.5411ms 404 
+2021-05-12 22:50:07.438 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/tr-TR/user/create  
+2021-05-12 22:50:07.456 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:50:07.509 +03:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller CarPark.User.Controllers.UserController (CarPark.User).
+2021-05-12 22:50:07.797 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-12 22:50:07.945 +03:00 [INF] Executed ViewResult - view Create executed in 154.2992ms.
+2021-05-12 22:50:07.965 +03:00 [INF] Executed action CarPark.User.Controllers.UserController.Create (CarPark.User) in 451.8328ms
+2021-05-12 22:50:07.969 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:50:07.974 +03:00 [INF] Request finished in 536.7674ms 200 text/html; charset=utf-8
+2021-05-12 22:50:08.018 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-05-12 22:50:08.018 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-05-12 22:50:08.018 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-05-12 22:50:08.038 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\css\site.css'
+2021-05-12 22:50:08.042 +03:00 [INF] Request finished in 24.0753ms 200 text/css
+2021-05-12 22:50:08.048 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-05-12 22:50:08.048 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-05-12 22:50:08.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2021-05-12 22:50:08.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-05-12 22:50:08.053 +03:00 [INF] Request finished in 35.3695ms 200 text/css
+2021-05-12 22:50:08.055 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\js\site.js'
+2021-05-12 22:50:08.053 +03:00 [INF] Request finished in 34.5023ms 200 application/javascript
+2021-05-12 22:50:08.050 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js  
+2021-05-12 22:50:08.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery-validation/dist/jquery.validate.min.js  
+2021-05-12 22:50:08.060 +03:00 [INF] Request finished in 10.453ms 200 application/javascript
+2021-05-12 22:50:08.064 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2021-05-12 22:50:08.058 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-05-12 22:50:08.069 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2021-05-12 22:50:08.071 +03:00 [INF] Request finished in 20.96ms 200 application/javascript
+2021-05-12 22:50:08.073 +03:00 [INF] Request finished in 24.4885ms 200 application/javascript
+2021-05-12 22:50:08.075 +03:00 [INF] Request finished in 25.8041ms 200 application/javascript
+2021-05-12 22:50:08.221 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-05-12 22:50:08.228 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\favicon.ico'
+2021-05-12 22:50:08.232 +03:00 [INF] Request finished in 11.0074ms 200 image/x-icon
+2021-05-12 22:51:06.207 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/tr-TR/user/create  
+2021-05-12 22:51:06.211 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:51:06.214 +03:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller CarPark.User.Controllers.UserController (CarPark.User).
+2021-05-12 22:51:06.605 +03:00 [INF] Executing ViewResult, running view Create.
+2021-05-12 22:51:06.613 +03:00 [INF] Executed ViewResult - view Create executed in 8.3854ms.
+2021-05-12 22:51:06.619 +03:00 [INF] Executed action CarPark.User.Controllers.UserController.Create (CarPark.User) in 402.8298ms
+2021-05-12 22:51:06.620 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.UserController.Create (CarPark.User)'
+2021-05-12 22:51:06.622 +03:00 [INF] Request finished in 414.898ms 200 text/html; charset=utf-8
+2021-05-12 22:51:06.669 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-05-12 22:51:06.670 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-05-12 22:51:06.682 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\css\site.css'
+2021-05-12 22:51:06.684 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-05-12 22:51:06.685 +03:00 [INF] Request finished in 14.7848ms 200 text/css
+2021-05-12 22:51:06.687 +03:00 [INF] Request finished in 17.6138ms 200 text/css
+2021-05-12 22:51:06.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-05-12 22:51:06.759 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\favicon.ico'
+2021-05-12 22:51:06.761 +03:00 [INF] Request finished in 6.923ms 200 image/x-icon
