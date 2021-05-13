@@ -18,6 +18,11 @@ using CarPark.Core.Repository.Abstract;
 using CarPark.DataAccess.Repository;
 using CarPark.Core.Settings;
 
+using CarPark.DataAccess.Abstract;
+using CarPark.Business.Concrete;
+using CarPark.DataAccess.Concrete;
+using CarPark.Business.Abstract;
+
 namespace CarPark.User
 {
     public class Startup
@@ -47,7 +52,10 @@ namespace CarPark.User
                 options.ConnectionString = Configuration.GetSection("MongoConnection:ConnectionString").Value;
                 options.Database = Configuration.GetSection("MongoConnection:Database").Value;
             });
+           
             services.AddScoped(typeof(IRepository<>), typeof(MongoRepositoryBase<>));
+            services.AddScoped<IPersonalDal, PersonalDal>();
+            services.AddScoped<IPersonalService, PersonalManager>();
             services.Configure<RequestLocalizationOptions>(opt =>
             {
                 var supportedCultures = new List<CultureInfo>

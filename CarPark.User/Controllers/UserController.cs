@@ -15,9 +15,9 @@ namespace CarPark.User.Controllers
     public class UserController : Controller
     {
         private readonly IStringLocalizer<UserController> _localizer;
-        private readonly IRepository<Test> _personalRepository;
+        private readonly IRepository<Personal> _personalRepository;
 
-        public UserController(IStringLocalizer<UserController> localizer, IRepository<Test> personalRepository)
+        public UserController(IStringLocalizer<UserController> localizer, IRepository<Personal> personalRepository)
         {
             _localizer = localizer;
             _personalRepository = personalRepository;
@@ -27,9 +27,9 @@ namespace CarPark.User.Controllers
         {
             var userInfo = _localizer["NameSurname"];
 
-            
 
-            
+
+
 
 
             var enUserInfo = _localizer["NameSurname"];
@@ -41,22 +41,35 @@ namespace CarPark.User.Controllers
         public IActionResult Create()
 
         {
-            var personal1 = _personalRepository.InsertOne(new Test
-            { Age=19}
-                
+            var personal1 = _personalRepository.InsertMany(new List<Personal>
+            {
+                new Personal
+            {
+                UserName = "Ordulu",
+                Email = "enes@gmail.com",
+                Password = "1234124",
+                CreatedDate = DateTime.Now,
+
+
+            },
+            new Personal
+            {
+                UserName = "Gaziantepli",
+                Email = "emre@gmail.com",
+                Password = "12341223424",
+                CreatedDate = DateTime.Now
+            }
+            }
+
+               
 
 
             );
-            var personal2 = _personalRepository.InsertOne(new Test
-            {
-              Age=29
-
-            });
             return View();
-            
-        }
-      
-
 
     }
+
+
+
+}
 }

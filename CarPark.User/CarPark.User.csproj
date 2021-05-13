@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CarPark.Business\CarPark.Business.csproj" />
     <ProjectReference Include="..\CarPark.Core\CarPark.Core.csproj" />
     <ProjectReference Include="..\CarPark.DataAccess\CarPark.DataAccess.csproj" />
     <ProjectReference Include="..\CarPark.Entities\CarPark.Entities.csproj" />
