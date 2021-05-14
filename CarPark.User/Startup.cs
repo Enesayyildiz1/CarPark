@@ -73,10 +73,7 @@ namespace CarPark.User
                 //    new CookieRequestCultureProvider(),
                 //    new AcceptLanguageHeaderRequestCultureProvider(),
                 //};
-                opt.RequestCultureProviders = new[] {new RouteDataRequestCultureProvider()
-                {
-                    Options=opt
-                }};
+               
             });
         }
 
@@ -106,7 +103,7 @@ namespace CarPark.User
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{culture}/{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
