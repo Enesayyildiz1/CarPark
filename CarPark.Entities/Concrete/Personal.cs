@@ -1,18 +1,24 @@
-﻿using MongoDB.Bson;
+﻿using AspNetCore.Identity.MongoDbCore.Models;
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using MongoDbGenericRepository.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CarPark.Entities.Concrete
 {
-    public class Personal : BaseModel
+    [CollectionName("Personal")]
+    public class Personal : MongoIdentityUser
     {
-     
-        public string UserName { get; set; }
-        public string Email { get; set; }
+        public Personal()
+        {
+            CreatedDate = DateTime.Now;
+            Status = 1;
+        }
+      
         public string Password { get; set; }
-        public string[] Roles { get; set; }
+        
         public PersonalContact PersonalContact { get; set; }
         public List<Address> Addresses { get; set; }
         public short Status { get; set; }

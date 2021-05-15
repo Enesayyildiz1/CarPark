@@ -22,6 +22,10 @@ using CarPark.DataAccess.Abstract;
 using CarPark.Business.Concrete;
 using CarPark.DataAccess.Concrete;
 using CarPark.Business.Abstract;
+using Microsoft.AspNetCore.Identity;
+using CarPark.Entities.Concrete;
+using MongoDB.Driver;
+using AspNetCore.Identity.MongoDbCore.Models;
 
 namespace CarPark.User
 {
@@ -37,6 +41,31 @@ namespace CarPark.User
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
+            services.AddAuthentication(option =>
+            {
+                option.DefaultScheme = IdentityConstants.ApplicationScheme;
+                option.DefaultSignInScheme = IdentityConstants.ExternalScheme;
+            });
+
+            services.AddIdentityCore<Personal>(option =>
+            {
+
+
+            })
+                .AddRoles<MongoIdentityRole>()
+                .AddMongoDbStores<Personal, MongoIdentityRole, Guid>(Configuration.GetSection("MongoConnection:ConnectionString").Value, Configuration.GetSection("MongoConnection:DatabaseName").Value)
+                .AddSignInManager()
+                .AddDefaultTokenProviders();
+            services.ConfigureApplicationCookie(option =>
+            {
+                option.Cookie.HttpOnly = true;
+                option.ExpireTimeSpan = TimeSpan.FromMinutes(5);
+                option.LoginPath = "/Account/Login";
+                option.SlidingExpiration = true;
+            });
+
+
             services.AddControllersWithViews();
             services.AddLocalization(opt => { opt.ResourcesPath = "Resources"; });
             services.AddMvc().AddViewLocalization().AddDataAnnotationsLocalization(options =>

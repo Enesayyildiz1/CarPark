@@ -4099,3 +4099,421 @@ System.InvalidOperationException: Unable to resolve service for type 'CarPark.Bu
 2021-05-14 17:52:40.324 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/data/json/files.json  
 2021-05-14 17:52:40.327 +03:00 [INF] Sending file. Request path: '/assets/data/json/files.json'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\data\json\files.json'
 2021-05-14 17:52:40.329 +03:00 [INF] Request finished in 5.3545ms 200 application/json
+2021-05-15 23:36:52.672 +03:00 [INF] User profile is available. Using 'C:\Users\Enes\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-15 23:36:53.881 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-15 23:36:53.883 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-15 23:36:53.886 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-15 23:36:53.888 +03:00 [INF] Hosting environment: Development
+2021-05-15 23:36:53.890 +03:00 [INF] Content root path: C:\Users\Enes\source\repos\CarPark\CarPark.User
+2021-05-15 23:36:55.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-15 23:36:56.008 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-15 23:36:56.328 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-15 23:37:03.388 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-15 23:37:03.680 +03:00 [INF] Executed ViewResult - view Index executed in 323.4542ms.
+2021-05-15 23:37:03.686 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 7350.2643ms
+2021-05-15 23:37:03.689 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-15 23:37:03.694 +03:00 [INF] Request finished in 7856.1948ms 200 text/html; charset=utf-8
+2021-05-15 23:37:03.743 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/style.min.css  
+2021-05-15 23:37:03.744 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/app.min.css  
+2021-05-15 23:37:03.744 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/core.min.css  
+2021-05-15 23:37:03.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/core.min.js  
+2021-05-15 23:37:03.785 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/app.min.js  
+2021-05-15 23:37:03.791 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/3.jpg  
+2021-05-15 23:37:03.790 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/2.jpg  
+2021-05-15 23:37:03.790 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/1.jpg  
+2021-05-15 23:37:03.790 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/script.min.js  
+2021-05-15 23:37:03.802 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/5.jpg  
+2021-05-15 23:37:03.802 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/4.jpg  
+2021-05-15 23:37:03.838 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/2.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\2.jpg'
+2021-05-15 23:37:03.838 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/3.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\3.jpg'
+2021-05-15 23:37:03.838 +03:00 [INF] Sending file. Request path: '/assets/css/style.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\style.min.css'
+2021-05-15 23:37:03.838 +03:00 [INF] Sending file. Request path: '/assets/js/script.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\script.min.js'
+2021-05-15 23:37:03.841 +03:00 [INF] Sending file. Request path: '/assets/js/core.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\core.min.js'
+2021-05-15 23:37:03.842 +03:00 [INF] Request finished in 50.9594ms 200 image/jpeg
+2021-05-15 23:37:03.840 +03:00 [INF] Request finished in 49.8ms 200 image/jpeg
+2021-05-15 23:37:03.849 +03:00 [INF] Request finished in 72.1801ms 200 application/javascript
+2021-05-15 23:37:03.848 +03:00 [INF] Request finished in 104.5656ms 200 text/css
+2021-05-15 23:37:03.851 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-15 23:37:03.848 +03:00 [INF] Request finished in 58.0483ms 200 application/javascript
+2021-05-15 23:37:03.854 +03:00 [INF] Sending file. Request path: '/assets/css/app.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\app.min.css'
+2021-05-15 23:37:03.847 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/5.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\5.jpg'
+2021-05-15 23:37:03.847 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/1.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\1.jpg'
+2021-05-15 23:37:03.838 +03:00 [INF] Sending file. Request path: '/assets/js/app.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\app.min.js'
+2021-05-15 23:37:03.858 +03:00 [INF] Request finished in 113.8181ms 200 text/css
+2021-05-15 23:37:03.858 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/4.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\4.jpg'
+2021-05-15 23:37:03.861 +03:00 [INF] Request finished in 117.0643ms 200 text/css
+2021-05-15 23:37:03.863 +03:00 [INF] Request finished in 61.5824ms 200 image/jpeg
+2021-05-15 23:37:03.866 +03:00 [INF] Request finished in 75.6604ms 200 image/jpeg
+2021-05-15 23:37:03.868 +03:00 [INF] Request finished in 86.9532ms 200 application/javascript
+2021-05-15 23:37:03.871 +03:00 [INF] Request finished in 69.3674ms 200 image/jpeg
+2021-05-15 23:37:04.046 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/fonts/fontawesome-webfont.woff2?v=4.7.0  
+2021-05-15 23:37:04.046 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/fonts/themify.woff?-fvbane  
+2021-05-15 23:37:04.055 +03:00 [INF] Request finished in 9.319ms 404 
+2021-05-15 23:37:04.087 +03:00 [INF] Sending file. Request path: '/assets/fonts/themify.woff'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\fonts\themify.woff'
+2021-05-15 23:37:04.090 +03:00 [INF] Request finished in 45.6238ms 200 application/font-woff
+2021-05-15 23:37:04.137 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/material-icons/css/material-icons.css  
+2021-05-15 23:37:04.155 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/fonts/fontawesome-webfont.woff?v=4.7.0  
+2021-05-15 23:37:04.158 +03:00 [INF] Request finished in 3.7051ms 404 
+2021-05-15 23:37:04.165 +03:00 [INF] Sending file. Request path: '/assets/vendor/material-icons/css/material-icons.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\material-icons\css\material-icons.css'
+2021-05-15 23:37:04.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/bloodhound.min.js  
+2021-05-15 23:37:04.174 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typed.js/typed.min.js  
+2021-05-15 23:37:04.174 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/screenfull/screenfull.min.js  
+2021-05-15 23:37:04.175 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/typeahead.jquery.min.js  
+2021-05-15 23:37:04.175 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/i8-icon/jquery-i8-icon.min.js  
+2021-05-15 23:37:04.176 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/fonts/fontawesome-webfont.ttf?v=4.7.0  
+2021-05-15 23:37:04.187 +03:00 [INF] Request finished in 11.0891ms 404 
+2021-05-15 23:37:04.176 +03:00 [INF] Request finished in 39.4305ms 200 text/css
+2021-05-15 23:37:04.199 +03:00 [INF] Sending file. Request path: '/assets/vendor/screenfull/screenfull.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\screenfull\screenfull.min.js'
+2021-05-15 23:37:04.199 +03:00 [INF] Sending file. Request path: '/assets/vendor/typed.js/typed.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typed.js\typed.min.js'
+2021-05-15 23:37:04.201 +03:00 [INF] Request finished in 26.8401ms 200 application/javascript
+2021-05-15 23:37:04.204 +03:00 [INF] Request finished in 29.3475ms 200 application/javascript
+2021-05-15 23:37:04.208 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/bloodhound.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\bloodhound.min.js'
+2021-05-15 23:37:04.212 +03:00 [INF] Request finished in 39.8609ms 200 application/javascript
+2021-05-15 23:37:04.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/material-icons/fonts/MaterialIcons-Regular.woff2  
+2021-05-15 23:37:04.218 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/typeahead.jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\typeahead.jquery.min.js'
+2021-05-15 23:37:04.221 +03:00 [INF] Request finished in 45.5056ms 200 application/javascript
+2021-05-15 23:37:04.227 +03:00 [INF] Sending file. Request path: '/assets/vendor/i8-icon/jquery-i8-icon.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\i8-icon\jquery-i8-icon.min.js'
+2021-05-15 23:37:04.230 +03:00 [INF] Request finished in 55.0846ms 200 application/javascript
+2021-05-15 23:37:04.257 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/i8-icon/i8-color-icons.svg  
+2021-05-15 23:37:04.257 +03:00 [INF] Sending file. Request path: '/assets/vendor/material-icons/fonts/MaterialIcons-Regular.woff2'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\material-icons\fonts\MaterialIcons-Regular.woff2'
+2021-05-15 23:37:04.263 +03:00 [INF] Request finished in 47.6137ms 200 font/woff2
+2021-05-15 23:37:04.292 +03:00 [INF] Sending file. Request path: '/assets/vendor/i8-icon/i8-color-icons.svg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\i8-icon\i8-color-icons.svg'
+2021-05-15 23:37:04.297 +03:00 [INF] Request finished in 40.3462ms 200 image/svg+xml
+2021-05-15 23:37:04.307 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/data/json/files.json  
+2021-05-15 23:37:04.338 +03:00 [INF] Sending file. Request path: '/assets/data/json/files.json'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\data\json\files.json'
+2021-05-15 23:37:04.344 +03:00 [INF] Request finished in 37.6222ms 200 application/json
+2021-05-15 23:37:10.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/contact  
+2021-05-15 23:37:10.473 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.ContactController.Index (CarPark.User)'
+2021-05-15 23:37:10.479 +03:00 [INF] Route matched with {action = "Index", controller = "Contact"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.ContactController (CarPark.User).
+2021-05-15 23:37:10.487 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-15 23:37:10.499 +03:00 [INF] Executed ViewResult - view Index executed in 14.2532ms.
+2021-05-15 23:37:10.501 +03:00 [INF] Executed action CarPark.User.Controllers.ContactController.Index (CarPark.User) in 17.9745ms
+2021-05-15 23:37:10.504 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.ContactController.Index (CarPark.User)'
+2021-05-15 23:37:10.506 +03:00 [INF] Request finished in 37.4282ms 200 text/html; charset=utf-8
+2021-05-15 23:37:10.541 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/app.min.css  
+2021-05-15 23:37:10.542 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/4.jpg  
+2021-05-15 23:37:10.541 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/style.min.css  
+2021-05-15 23:37:10.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/script.min.js  
+2021-05-15 23:37:10.571 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/4.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\4.jpg'
+2021-05-15 23:37:10.572 +03:00 [INF] Sending file. Request path: '/assets/css/style.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\style.min.css'
+2021-05-15 23:37:10.575 +03:00 [INF] Request finished in 33.1707ms 200 image/jpeg
+2021-05-15 23:37:10.573 +03:00 [INF] Sending file. Request path: '/assets/js/script.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\script.min.js'
+2021-05-15 23:37:10.541 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/core.min.css  
+2021-05-15 23:37:10.541 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/1.jpg  
+2021-05-15 23:37:10.578 +03:00 [INF] Request finished in 36.9851ms 200 text/css
+2021-05-15 23:37:10.581 +03:00 [INF] Request finished in 11.888ms 200 application/javascript
+2021-05-15 23:37:10.585 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/1.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\1.jpg'
+2021-05-15 23:37:10.542 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/5.jpg  
+2021-05-15 23:37:10.542 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/3.jpg  
+2021-05-15 23:37:10.587 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-15 23:37:10.589 +03:00 [INF] Request finished in 48.0393ms 200 image/jpeg
+2021-05-15 23:37:10.591 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/5.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\5.jpg'
+2021-05-15 23:37:10.542 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/2.jpg  
+2021-05-15 23:37:10.549 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/core.min.js  
+2021-05-15 23:37:10.594 +03:00 [INF] Request finished in 53.3375ms 200 text/css
+2021-05-15 23:37:10.597 +03:00 [INF] Request finished in 54.694ms 200 image/jpeg
+2021-05-15 23:37:10.593 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/3.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\3.jpg'
+2021-05-15 23:37:10.599 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/2.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\2.jpg'
+2021-05-15 23:37:10.576 +03:00 [INF] Sending file. Request path: '/assets/css/app.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\app.min.css'
+2021-05-15 23:37:10.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/app.min.js  
+2021-05-15 23:37:10.603 +03:00 [INF] Sending file. Request path: '/assets/js/core.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\core.min.js'
+2021-05-15 23:37:10.605 +03:00 [INF] Request finished in 63.2116ms 200 image/jpeg
+2021-05-15 23:37:10.607 +03:00 [INF] Request finished in 64.9138ms 200 image/jpeg
+2021-05-15 23:37:10.608 +03:00 [INF] Request finished in 67.5406ms 200 text/css
+2021-05-15 23:37:10.612 +03:00 [INF] Sending file. Request path: '/assets/js/app.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\app.min.js'
+2021-05-15 23:37:10.613 +03:00 [INF] Request finished in 63.7382ms 200 application/javascript
+2021-05-15 23:37:10.617 +03:00 [INF] Request finished in 48.6097ms 200 application/javascript
+2021-05-15 23:37:15.295 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/account  
+2021-05-15 23:37:15.298 +03:00 [INF] Request finished in 3.4544ms 404 
+2021-05-15 23:37:23.464 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/account/register  
+2021-05-15 23:37:23.467 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:37:23.473 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-15 23:37:23.479 +03:00 [INF] Executing ViewResult, running view Register.
+2021-05-15 23:37:24.600 +03:00 [INF] Executed ViewResult - view Register executed in 1122.6667ms.
+2021-05-15 23:37:24.604 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Register (CarPark.User) in 1127.2785ms
+2021-05-15 23:37:24.613 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:37:24.614 +03:00 [INF] Request finished in 1150.5561ms 200 text/html; charset=utf-8
+2021-05-15 23:37:24.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/app.min.css  
+2021-05-15 23:37:24.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/script.min.js  
+2021-05-15 23:37:24.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/core.min.js  
+2021-05-15 23:37:24.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/core.min.css  
+2021-05-15 23:37:24.721 +03:00 [INF] Sending file. Request path: '/assets/js/script.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\script.min.js'
+2021-05-15 23:37:24.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/style.min.css  
+2021-05-15 23:37:24.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/app.min.js  
+2021-05-15 23:37:24.731 +03:00 [INF] Request finished in 14.3966ms 200 application/javascript
+2021-05-15 23:37:24.731 +03:00 [INF] Sending file. Request path: '/assets/css/style.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\style.min.css'
+2021-05-15 23:37:24.732 +03:00 [INF] Sending file. Request path: '/assets/js/core.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\core.min.js'
+2021-05-15 23:37:24.729 +03:00 [INF] Sending file. Request path: '/assets/css/app.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\app.min.css'
+2021-05-15 23:37:24.736 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-15 23:37:24.736 +03:00 [INF] Sending file. Request path: '/assets/js/app.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\app.min.js'
+2021-05-15 23:37:24.738 +03:00 [INF] Request finished in 22.188ms 200 text/css
+2021-05-15 23:37:24.741 +03:00 [INF] Request finished in 25.0699ms 200 application/javascript
+2021-05-15 23:37:24.745 +03:00 [INF] Request finished in 28.705ms 200 text/css
+2021-05-15 23:37:24.747 +03:00 [INF] Request finished in 30.9564ms 200 text/css
+2021-05-15 23:37:24.750 +03:00 [INF] Request finished in 33.1311ms 200 application/javascript
+2021-05-15 23:37:24.869 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/ionicons/css/ionicons.min.css  
+2021-05-15 23:37:24.882 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/bloodhound.min.js  
+2021-05-15 23:37:24.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/typeahead.jquery.min.js  
+2021-05-15 23:37:24.885 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/bloodhound.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\bloodhound.min.js'
+2021-05-15 23:37:24.889 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/typeahead.jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\typeahead.jquery.min.js'
+2021-05-15 23:37:24.891 +03:00 [INF] Request finished in 8.4209ms 200 application/javascript
+2021-05-15 23:37:24.893 +03:00 [INF] Request finished in 10.5017ms 200 application/javascript
+2021-05-15 23:37:24.908 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/data/json/files.json  
+2021-05-15 23:37:24.911 +03:00 [INF] Sending file. Request path: '/assets/data/json/files.json'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\data\json\files.json'
+2021-05-15 23:37:24.913 +03:00 [INF] Request finished in 4.9181ms 200 application/json
+2021-05-15 23:37:24.925 +03:00 [INF] Sending file. Request path: '/assets/vendor/ionicons/css/ionicons.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\ionicons\css\ionicons.min.css'
+2021-05-15 23:37:24.928 +03:00 [INF] Request finished in 59.3344ms 200 text/css
+2021-05-15 23:37:37.001 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/Account/Register application/x-www-form-urlencoded 238
+2021-05-15 23:37:37.004 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:37:37.016 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-15 23:37:37.035 +03:00 [INF] Executing ViewResult, running view Register.
+2021-05-15 23:37:37.040 +03:00 [INF] Executed ViewResult - view Register executed in 5.6275ms.
+2021-05-15 23:37:37.043 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Register (CarPark.User) in 23.4952ms
+2021-05-15 23:37:37.046 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:37:37.048 +03:00 [INF] Request finished in 47.4208ms 200 text/html; charset=utf-8
+2021-05-15 23:37:37.089 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/core.min.css  
+2021-05-15 23:37:37.090 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/app.min.css  
+2021-05-15 23:37:37.091 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/style.min.css  
+2021-05-15 23:37:37.100 +03:00 [INF] Sending file. Request path: '/assets/css/style.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\style.min.css'
+2021-05-15 23:37:37.101 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-15 23:37:37.102 +03:00 [INF] Request finished in 11.6803ms 200 text/css
+2021-05-15 23:37:37.104 +03:00 [INF] Sending file. Request path: '/assets/css/app.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\app.min.css'
+2021-05-15 23:37:37.105 +03:00 [INF] Request finished in 16.0608ms 200 text/css
+2021-05-15 23:37:37.110 +03:00 [INF] Request finished in 20.2101ms 200 text/css
+2021-05-15 23:37:37.186 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/ionicons/css/ionicons.min.css  
+2021-05-15 23:37:37.191 +03:00 [INF] Sending file. Request path: '/assets/vendor/ionicons/css/ionicons.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\ionicons\css\ionicons.min.css'
+2021-05-15 23:37:37.196 +03:00 [INF] Request finished in 9.6351ms 200 text/css
+2021-05-15 23:37:37.202 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/bloodhound.min.js  
+2021-05-15 23:37:37.203 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/typeahead.jquery.min.js  
+2021-05-15 23:37:37.206 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/bloodhound.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\bloodhound.min.js'
+2021-05-15 23:37:37.208 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/typeahead.jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\typeahead.jquery.min.js'
+2021-05-15 23:37:37.210 +03:00 [INF] Request finished in 8.4414ms 200 application/javascript
+2021-05-15 23:37:37.214 +03:00 [INF] Request finished in 11.008ms 200 application/javascript
+2021-05-15 23:37:37.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/data/json/files.json  
+2021-05-15 23:37:37.232 +03:00 [INF] Sending file. Request path: '/assets/data/json/files.json'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\data\json\files.json'
+2021-05-15 23:37:37.235 +03:00 [INF] Request finished in 7.8182ms 200 application/json
+2021-05-15 23:37:41.232 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/Account/Register application/x-www-form-urlencoded 233
+2021-05-15 23:37:41.235 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:37:41.238 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-15 23:37:41.242 +03:00 [INF] Executing ViewResult, running view Register.
+2021-05-15 23:37:41.249 +03:00 [INF] Executed ViewResult - view Register executed in 6.5612ms.
+2021-05-15 23:37:41.253 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Register (CarPark.User) in 11.3335ms
+2021-05-15 23:37:41.254 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:37:41.256 +03:00 [INF] Request finished in 24.7659ms 200 text/html; charset=utf-8
+2021-05-15 23:37:41.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/style.min.css  
+2021-05-15 23:37:41.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/core.min.css  
+2021-05-15 23:37:41.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/app.min.css  
+2021-05-15 23:37:41.303 +03:00 [INF] Sending file. Request path: '/assets/css/style.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\style.min.css'
+2021-05-15 23:37:41.309 +03:00 [INF] Request finished in 10.0304ms 200 text/css
+2021-05-15 23:37:41.310 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-15 23:37:41.314 +03:00 [INF] Sending file. Request path: '/assets/css/app.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\app.min.css'
+2021-05-15 23:37:41.314 +03:00 [INF] Request finished in 14.9247ms 200 text/css
+2021-05-15 23:37:41.318 +03:00 [INF] Request finished in 18.9611ms 200 text/css
+2021-05-15 23:37:41.374 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/ionicons/css/ionicons.min.css  
+2021-05-15 23:37:41.380 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/bloodhound.min.js  
+2021-05-15 23:37:41.381 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/typeahead.jquery.min.js  
+2021-05-15 23:37:41.381 +03:00 [INF] Sending file. Request path: '/assets/vendor/ionicons/css/ionicons.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\ionicons\css\ionicons.min.css'
+2021-05-15 23:37:41.383 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/bloodhound.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\bloodhound.min.js'
+2021-05-15 23:37:41.387 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/typeahead.jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\typeahead.jquery.min.js'
+2021-05-15 23:37:41.388 +03:00 [INF] Request finished in 14.3822ms 200 text/css
+2021-05-15 23:37:41.391 +03:00 [INF] Request finished in 11.0037ms 200 application/javascript
+2021-05-15 23:37:41.393 +03:00 [INF] Request finished in 13.1485ms 200 application/javascript
+2021-05-15 23:37:41.411 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/data/json/files.json  
+2021-05-15 23:37:41.416 +03:00 [INF] Sending file. Request path: '/assets/data/json/files.json'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\data\json\files.json'
+2021-05-15 23:37:41.419 +03:00 [INF] Request finished in 8.2851ms 200 application/json
+2021-05-15 23:44:02.382 +03:00 [INF] User profile is available. Using 'C:\Users\Enes\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-15 23:44:02.770 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-15 23:44:02.772 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-15 23:44:02.775 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-15 23:44:02.776 +03:00 [INF] Hosting environment: Development
+2021-05-15 23:44:02.777 +03:00 [INF] Content root path: C:\Users\Enes\source\repos\CarPark\CarPark.User
+2021-05-15 23:44:04.045 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-15 23:44:04.118 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-15 23:44:04.204 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-15 23:44:11.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/account/register  
+2021-05-15 23:44:11.169 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:44:11.178 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-15 23:44:11.221 +03:00 [INF] Executing ViewResult, running view Register.
+2021-05-15 23:44:11.486 +03:00 [INF] Executed ViewResult - view Register executed in 282.7293ms.
+2021-05-15 23:44:11.496 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Register (CarPark.User) in 311.8656ms
+2021-05-15 23:44:11.500 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:44:11.508 +03:00 [INF] Request finished in 348.1083ms 200 text/html; charset=utf-8
+2021-05-15 23:44:11.598 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-15 23:44:11.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/core.min.css  
+2021-05-15 23:44:11.635 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/app.min.js  
+2021-05-15 23:44:11.635 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/core.min.js  
+2021-05-15 23:44:11.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/app.min.css  
+2021-05-15 23:44:11.636 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/script.min.js  
+2021-05-15 23:44:11.634 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/style.min.css  
+2021-05-15 23:44:11.674 +03:00 [INF] Sending file. Request path: '/assets/css/style.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\style.min.css'
+2021-05-15 23:44:11.674 +03:00 [INF] Sending file. Request path: '/assets/js/script.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\script.min.js'
+2021-05-15 23:44:11.705 +03:00 [INF] Executed ViewResult - view Index executed in 110.0076ms.
+2021-05-15 23:44:11.710 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 7499.8544ms
+2021-05-15 23:44:11.715 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-15 23:44:11.720 +03:00 [INF] Request finished in 7680.9371ms 200 text/html; charset=utf-8
+2021-05-15 23:44:11.736 +03:00 [INF] Request finished in 102.2299ms 200 text/css
+2021-05-15 23:44:11.736 +03:00 [INF] Request finished in 100.6316ms 200 application/javascript
+2021-05-15 23:44:11.750 +03:00 [INF] Sending file. Request path: '/assets/js/app.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\app.min.js'
+2021-05-15 23:44:11.750 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-15 23:44:11.752 +03:00 [INF] Sending file. Request path: '/assets/js/core.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\core.min.js'
+2021-05-15 23:44:11.760 +03:00 [INF] Request finished in 124.6937ms 200 application/javascript
+2021-05-15 23:44:11.760 +03:00 [INF] Sending file. Request path: '/assets/css/app.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\app.min.css'
+2021-05-15 23:44:11.763 +03:00 [INF] Request finished in 135.914ms 200 text/css
+2021-05-15 23:44:11.768 +03:00 [INF] Request finished in 133.1346ms 200 application/javascript
+2021-05-15 23:44:11.775 +03:00 [INF] Request finished in 147.7476ms 200 text/css
+2021-05-15 23:44:12.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/ionicons/css/ionicons.min.css  
+2021-05-15 23:44:12.177 +03:00 [INF] Sending file. Request path: '/assets/vendor/ionicons/css/ionicons.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\ionicons\css\ionicons.min.css'
+2021-05-15 23:44:12.180 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/bloodhound.min.js  
+2021-05-15 23:44:12.180 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/typeahead.jquery.min.js  
+2021-05-15 23:44:12.183 +03:00 [INF] Request finished in 24.0252ms 200 text/css
+2021-05-15 23:44:12.187 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/bloodhound.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\bloodhound.min.js'
+2021-05-15 23:44:12.197 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/typeahead.jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\typeahead.jquery.min.js'
+2021-05-15 23:44:12.201 +03:00 [INF] Request finished in 21.5012ms 200 application/javascript
+2021-05-15 23:44:12.206 +03:00 [INF] Request finished in 26.6871ms 200 application/javascript
+2021-05-15 23:44:12.281 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/data/json/files.json  
+2021-05-15 23:44:12.286 +03:00 [INF] Sending file. Request path: '/assets/data/json/files.json'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\data\json\files.json'
+2021-05-15 23:44:12.296 +03:00 [INF] Request finished in 16.0231ms 200 application/json
+2021-05-15 23:44:18.387 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/Account/Register application/x-www-form-urlencoded 266
+2021-05-15 23:44:18.398 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:44:18.429 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(CarPark.Models.RequestModel.Account.RegisterCreateModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-15 23:47:41.114 +03:00 [INF] User profile is available. Using 'C:\Users\Enes\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-15 23:47:41.877 +03:00 [INF] Now listening on: https://localhost:5001
+2021-05-15 23:47:41.880 +03:00 [INF] Now listening on: http://localhost:5000
+2021-05-15 23:47:41.885 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-15 23:47:41.888 +03:00 [INF] Hosting environment: Development
+2021-05-15 23:47:41.891 +03:00 [INF] Content root path: C:\Users\Enes\source\repos\CarPark\CarPark.User
+2021-05-15 23:47:44.616 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-05-15 23:47:44.694 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-15 23:47:44.766 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-15 23:47:52.050 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-15 23:47:52.126 +03:00 [INF] Executed ViewResult - view Index executed in 80.6313ms.
+2021-05-15 23:47:52.132 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 7361.321ms
+2021-05-15 23:47:52.133 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-15 23:47:52.140 +03:00 [INF] Request finished in 7530.3417ms 200 text/html; charset=utf-8
+2021-05-15 23:47:52.256 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/core.min.css  
+2021-05-15 23:47:52.256 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/app.min.css  
+2021-05-15 23:47:52.256 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/style.min.css  
+2021-05-15 23:47:52.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/core.min.js  
+2021-05-15 23:47:52.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/1.jpg  
+2021-05-15 23:47:52.295 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/app.min.js  
+2021-05-15 23:47:52.304 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/3.jpg  
+2021-05-15 23:47:52.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/js/script.min.js  
+2021-05-15 23:47:52.311 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/1.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\1.jpg'
+2021-05-15 23:47:52.312 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/3.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\3.jpg'
+2021-05-15 23:47:52.314 +03:00 [INF] Request finished in 17.8872ms 200 image/jpeg
+2021-05-15 23:47:52.316 +03:00 [INF] Request finished in 11.3043ms 200 image/jpeg
+2021-05-15 23:47:52.317 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/4.jpg  
+2021-05-15 23:47:52.318 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/5.jpg  
+2021-05-15 23:47:52.311 +03:00 [INF] Sending file. Request path: '/assets/css/style.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\style.min.css'
+2021-05-15 23:47:52.323 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/4.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\4.jpg'
+2021-05-15 23:47:52.313 +03:00 [INF] Sending file. Request path: '/assets/js/script.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\script.min.js'
+2021-05-15 23:47:52.304 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/img/avatar/2.jpg  
+2021-05-15 23:47:52.352 +03:00 [INF] Request finished in 34.6725ms 200 image/jpeg
+2021-05-15 23:47:52.356 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-15 23:47:52.356 +03:00 [INF] Sending file. Request path: '/assets/js/app.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\app.min.js'
+2021-05-15 23:47:52.356 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/5.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\5.jpg'
+2021-05-15 23:47:52.356 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/2.jpg'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\img\avatar\2.jpg'
+2021-05-15 23:47:52.352 +03:00 [INF] Request finished in 95.522ms 200 text/css
+2021-05-15 23:47:52.360 +03:00 [INF] Sending file. Request path: '/assets/js/core.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\js\core.min.js'
+2021-05-15 23:47:52.363 +03:00 [INF] Request finished in 108.1558ms 200 text/css
+2021-05-15 23:47:52.352 +03:00 [INF] Request finished in 56.0661ms 200 application/javascript
+2021-05-15 23:47:52.366 +03:00 [INF] Request finished in 71.9942ms 200 application/javascript
+2021-05-15 23:47:52.366 +03:00 [INF] Sending file. Request path: '/assets/css/app.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\app.min.css'
+2021-05-15 23:47:52.369 +03:00 [INF] Request finished in 50.6354ms 200 image/jpeg
+2021-05-15 23:47:52.373 +03:00 [INF] Request finished in 69.2553ms 200 image/jpeg
+2021-05-15 23:47:52.379 +03:00 [INF] Request finished in 88.5059ms 200 application/javascript
+2021-05-15 23:47:52.386 +03:00 [INF] Request finished in 129.9016ms 200 text/css
+2021-05-15 23:47:55.574 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/account/register  
+2021-05-15 23:47:55.581 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:47:55.585 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-15 23:47:55.594 +03:00 [INF] Executing ViewResult, running view Register.
+2021-05-15 23:47:55.662 +03:00 [INF] Executed ViewResult - view Register executed in 69.1761ms.
+2021-05-15 23:47:55.665 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Register (CarPark.User) in 73.2828ms
+2021-05-15 23:47:55.669 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:47:55.671 +03:00 [INF] Request finished in 96.9043ms 200 text/html; charset=utf-8
+2021-05-15 23:48:01.534 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/fonts/fontawesome-webfont.woff2?v=4.7.0  
+2021-05-15 23:48:01.534 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/fonts/themify.woff?-fvbane  
+2021-05-15 23:48:01.545 +03:00 [INF] Sending file. Request path: '/assets/fonts/themify.woff'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\fonts\themify.woff'
+2021-05-15 23:48:01.546 +03:00 [INF] Request finished in 12.496ms 0 
+2021-05-15 23:48:01.548 +03:00 [INF] Request finished in 14.6139ms 0 application/font-woff
+2021-05-15 23:48:01.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/ionicons/css/ionicons.min.css  
+2021-05-15 23:48:01.699 +03:00 [INF] Sending file. Request path: '/assets/vendor/ionicons/css/ionicons.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\ionicons\css\ionicons.min.css'
+2021-05-15 23:48:01.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/bloodhound.min.js  
+2021-05-15 23:48:01.702 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/typeahead.jquery.min.js  
+2021-05-15 23:48:01.704 +03:00 [INF] Request finished in 11.3317ms 200 text/css
+2021-05-15 23:48:01.707 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/bloodhound.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\bloodhound.min.js'
+2021-05-15 23:48:01.712 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/typeahead.jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\typeahead.jquery.min.js'
+2021-05-15 23:48:01.716 +03:00 [INF] Request finished in 15.7486ms 200 application/javascript
+2021-05-15 23:48:01.721 +03:00 [INF] Request finished in 19.236ms 200 application/javascript
+2021-05-15 23:48:01.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/data/json/files.json  
+2021-05-15 23:48:01.921 +03:00 [INF] Sending file. Request path: '/assets/data/json/files.json'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\data\json\files.json'
+2021-05-15 23:48:01.924 +03:00 [INF] Request finished in 6.9337ms 200 application/json
+2021-05-15 23:48:18.521 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/Account/Register application/x-www-form-urlencoded 241
+2021-05-15 23:48:18.524 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:48:18.539 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(CarPark.Models.RequestModel.Account.RegisterCreateModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-15 23:49:07.384 +03:00 [INF] Executing ViewResult, running view Register.
+2021-05-15 23:49:07.744 +03:00 [INF] Executed ViewResult - view Register executed in 416.6231ms.
+2021-05-15 23:49:07.747 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Register (CarPark.User) in 49203.9538ms
+2021-05-15 23:49:07.749 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:49:07.750 +03:00 [INF] Request finished in 49229.609ms 200 text/html; charset=utf-8
+2021-05-15 23:49:07.798 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/core.min.css  
+2021-05-15 23:49:07.811 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-15 23:49:07.814 +03:00 [INF] Request finished in 16.2825ms 200 text/css
+2021-05-15 23:49:07.871 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/ionicons/css/ionicons.min.css  
+2021-05-15 23:49:07.877 +03:00 [INF] Sending file. Request path: '/assets/vendor/ionicons/css/ionicons.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\ionicons\css\ionicons.min.css'
+2021-05-15 23:49:07.882 +03:00 [INF] Request finished in 11.1481ms 200 text/css
+2021-05-15 23:49:07.887 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/bloodhound.min.js  
+2021-05-15 23:49:07.887 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/typeahead.jquery.min.js  
+2021-05-15 23:49:07.893 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/bloodhound.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\bloodhound.min.js'
+2021-05-15 23:49:07.896 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/typeahead.jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\typeahead.jquery.min.js'
+2021-05-15 23:49:07.897 +03:00 [INF] Request finished in 9.5239ms 200 application/javascript
+2021-05-15 23:49:07.900 +03:00 [INF] Request finished in 12.3719ms 200 application/javascript
+2021-05-15 23:49:07.918 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/data/json/files.json  
+2021-05-15 23:49:07.993 +03:00 [INF] Sending file. Request path: '/assets/data/json/files.json'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\data\json\files.json'
+2021-05-15 23:49:07.996 +03:00 [INF] Request finished in 78.3966ms 200 application/json
+2021-05-15 23:49:16.247 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/Account/Register application/x-www-form-urlencoded 253
+2021-05-15 23:49:16.250 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:49:16.253 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(CarPark.Models.RequestModel.Account.RegisterCreateModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-15 23:49:46.000 +03:00 [INF] Executing ViewResult, running view Register.
+2021-05-15 23:49:49.554 +03:00 [INF] Executed ViewResult - view Register executed in 3554.266ms.
+2021-05-15 23:49:49.560 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Register (CarPark.User) in 33303.9762ms
+2021-05-15 23:49:49.563 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:49:49.568 +03:00 [INF] Request finished in 33320.5279ms 200 text/html; charset=utf-8
+2021-05-15 23:49:49.685 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/core.min.css  
+2021-05-15 23:49:49.749 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-15 23:49:49.798 +03:00 [INF] Request finished in 113.5084ms 200 text/css
+2021-05-15 23:49:50.015 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/ionicons/css/ionicons.min.css  
+2021-05-15 23:49:50.027 +03:00 [INF] Sending file. Request path: '/assets/vendor/ionicons/css/ionicons.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\ionicons\css\ionicons.min.css'
+2021-05-15 23:49:50.046 +03:00 [INF] Request finished in 31.5052ms 200 text/css
+2021-05-15 23:49:50.057 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/bloodhound.min.js  
+2021-05-15 23:49:50.064 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/bloodhound.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\bloodhound.min.js'
+2021-05-15 23:49:50.071 +03:00 [INF] Request finished in 13.6772ms 200 application/javascript
+2021-05-15 23:49:50.122 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/typeahead.jquery.min.js  
+2021-05-15 23:49:50.133 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/typeahead.jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\typeahead.jquery.min.js'
+2021-05-15 23:49:50.139 +03:00 [INF] Request finished in 16.2283ms 200 application/javascript
+2021-05-15 23:49:50.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/data/json/files.json  
+2021-05-15 23:49:50.171 +03:00 [INF] Sending file. Request path: '/assets/data/json/files.json'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\data\json\files.json'
+2021-05-15 23:49:50.177 +03:00 [INF] Request finished in 12.5002ms 200 application/json
+2021-05-15 23:50:00.937 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/Account/Register application/x-www-form-urlencoded 272
+2021-05-15 23:50:00.939 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:50:00.940 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(CarPark.Models.RequestModel.Account.RegisterCreateModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-15 23:50:10.499 +03:00 [INF] Executing ViewResult, running view Register.
+2021-05-15 23:50:12.875 +03:00 [INF] Executed ViewResult - view Register executed in 2376.3486ms.
+2021-05-15 23:50:12.879 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Register (CarPark.User) in 11935.9714ms
+2021-05-15 23:50:12.880 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-15 23:50:12.882 +03:00 [INF] Request finished in 11944.9624ms 200 text/html; charset=utf-8
+2021-05-15 23:50:12.928 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/css/core.min.css  
+2021-05-15 23:50:12.935 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-15 23:50:12.938 +03:00 [INF] Request finished in 10.0612ms 200 text/css
+2021-05-15 23:50:13.000 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/ionicons/css/ionicons.min.css  
+2021-05-15 23:50:13.006 +03:00 [INF] Sending file. Request path: '/assets/vendor/ionicons/css/ionicons.min.css'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\ionicons\css\ionicons.min.css'
+2021-05-15 23:50:13.010 +03:00 [INF] Request finished in 10.1298ms 200 text/css
+2021-05-15 23:50:13.016 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/bloodhound.min.js  
+2021-05-15 23:50:13.016 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/vendor/typeahead/typeahead.jquery.min.js  
+2021-05-15 23:50:13.019 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/bloodhound.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\bloodhound.min.js'
+2021-05-15 23:50:13.023 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/typeahead.jquery.min.js'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\typeahead.jquery.min.js'
+2021-05-15 23:50:13.024 +03:00 [INF] Request finished in 7.5093ms 200 application/javascript
+2021-05-15 23:50:13.026 +03:00 [INF] Request finished in 9.6484ms 200 application/javascript
+2021-05-15 23:50:13.045 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/data/json/files.json  
+2021-05-15 23:50:13.048 +03:00 [INF] Sending file. Request path: '/assets/data/json/files.json'. Physical path: 'C:\Users\Enes\source\repos\CarPark\CarPark.User\wwwroot\assets\data\json\files.json'
+2021-05-15 23:50:13.053 +03:00 [INF] Request finished in 8.0066ms 200 application/json
