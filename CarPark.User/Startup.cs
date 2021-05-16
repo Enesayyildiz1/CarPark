@@ -41,12 +41,15 @@ namespace CarPark.User
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+
             services.AddAuthentication(option =>
             {
                 option.DefaultScheme = IdentityConstants.ApplicationScheme;
                 option.DefaultSignInScheme = IdentityConstants.ExternalScheme;
-            });
+            }).AddIdentityCookies(o =>
+            {
+
+            }) ;
 
             services.AddIdentityCore<Personal>(option =>
             {
@@ -54,7 +57,7 @@ namespace CarPark.User
 
             })
                 .AddRoles<MongoIdentityRole>()
-                .AddMongoDbStores<Personal, MongoIdentityRole, Guid>(Configuration.GetSection("MongoConnection:ConnectionString").Value, Configuration.GetSection("MongoConnection:DatabaseName").Value)
+                .AddMongoDbStores<Personal, MongoIdentityRole, Guid>(Configuration.GetSection("MongoConnection:ConnectionString").Value, Configuration.GetSection("MongoConnection:Database").Value)
                 .AddSignInManager()
                 .AddDefaultTokenProviders();
             services.ConfigureApplicationCookie(option =>
@@ -123,7 +126,7 @@ namespace CarPark.User
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
             var options = app.ApplicationServices.GetService<IOptions<RequestLocalizationOptions>>();
             app.UseRequestLocalization(options.Value);
