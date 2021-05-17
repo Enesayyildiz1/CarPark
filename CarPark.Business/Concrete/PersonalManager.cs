@@ -12,6 +12,7 @@ namespace CarPark.Business.Concrete
     {
         private IPersonalDal _personalDal;
 
+
         public PersonalManager(IPersonalDal personalDal)
         {
             _personalDal = personalDal;

@@ -24,6 +24,11 @@ namespace CarPark.Entities.Concrete
         public short Status { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
-
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public bool ReceiveNotification { get; set; }
+        public bool ReceiveMessage { get; set; }
+        public string ImageUrl { get; set; }
+        public string CityName { get; set; }
     }
 }

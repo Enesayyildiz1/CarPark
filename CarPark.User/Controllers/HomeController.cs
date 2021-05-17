@@ -57,7 +57,7 @@ namespace CarPark.User.Controllers
             //_logger.LogError("Customer  da bir hata oluştu {@customer}",customer2);
 
            
-            var database = client.GetDatabase("CarParkDB");
+            //var database = client.GetDatabase("CarParkDB");
             //var jsonString = System.IO.File.ReadAllText("cities.json");
             //var citiesModel = JsonConvert.DeserializeObject<List<Cities>>(jsonString);
             //var collection = database.GetCollection<City>("City");
@@ -66,11 +66,11 @@ namespace CarPark.User.Controllers
             //    var city = new City()
             //    {
             //        Id = ObjectId.GenerateNewId(),
-            //        Latitude= item.Latitude,
+            //        Latitude = item.Latitude,
             //        Logitude = item.Longtitude,
-            //        Name=item.Name,
-            //        Plate=item.Plate,
-            //        Counties=new List<County>()
+            //        Name = item.Name,
+            //        Plate = item.Plate,
+            //        Counties = new List<County>()
 
 
 
@@ -80,26 +80,26 @@ namespace CarPark.User.Controllers
             //        city.Counties.Add(new County()
             //        {
             //            Id = ObjectId.GenerateNewId(),
-            //            Name=county
+            //            Name = county
 
             //        });
             //    }
             //    collection.InsertOne(city);
             //}
-            
+
             //var test = new Test()
             //{
             //    _Id = ObjectId.GenerateNewId(),
             //    NameSurname = "Enes Ayyıldız",
             //    Age = 19,
-            //    AddressList = new List<Address>()
+            //    AddressList = new List<Entities.Concrete.Address>()
             //    {
-            //        new Address
+            //        new Entities.Concrete.Address
             //    {
             //        Title="Ev Adresim",
             //        Description="Zeytinburnu"
             //        },
-            //           new Address
+            //           new Entities.Concrete.Address
             //    {
             //        Title="İş Adresim",
             //        Description="Levent 4"

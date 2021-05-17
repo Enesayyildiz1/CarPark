@@ -1,0 +1,120 @@
+﻿@model PersonalProfileInfo
+@{
+    ViewData["Title"] = "Settings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="main-content">
+    <form class="row" asp-controller="Personal" asp-action="Settings" enctype="multipart/form-data">
+        <div class="col-lg-8">
+            <div class="card">
+                <h4 class="card-title"><strong>Personel</strong> Bilgileri</h4>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label class="text-fader">Adınız</label>
+                            <input asp-for="Name" class="form-control" type="text" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="text-fader">Soyadınız</label>
+                            <input asp-for="Surname" class="form-control" type="text" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label class="text-fader">Şehir</label>
+                            <select data-provide="selectpicker" class="form-control" type="text">
+
+                                @foreach (var item in Model.Cities)
+                                {
+                                <option>@item.Name</option>
+                                }
+                                
+                               
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="text-fader">Telefon Numaranız</label>
+                            <input asp-for="PhoneNumber" class="form-control" type="number" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="card-title"><strong>Hesap</strong> Bilgileri</h4>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label class="text-fader">Kullanıcı Adı</label>
+                            <input asp-for="UserName" class="form-control" type="text" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="text-fader">E-Mail</label>
+                            <input asp-for="Email" class="form-control" type="text" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <h4 class="card-title"><strong>Profil </strong>Resmi</h4>
+                <div class="card-body">
+
+                    <div class="flexbox gap-items-4">
+
+                        <img class="avatar avatar-xl" src="~/assets/img/avatar/4.jpg" />
+
+                        <div class="flex-grow">
+                            <h5>Enes Ayyıldız</h5>
+                            <div class="flexbox justify-content-start mt-16">
+                                <div class="file-group file-group-inline">
+                                    <button class="btn btn-sm btn-bold btn-secondary file-browser">Değiştir</button>
+                                    <input type="file" name="Image" />
+
+                                </div>
+                                <a class="btn btn-sm btn-bold btn-danger">Sil</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <h4 class="card-title"><strong>Bildirimler</strong></h4>
+                <div class="card-body">
+                    <div class="media">
+                        <div class="media-body">
+                            <p>
+                                <strong>Bildirimler</strong>
+                            </p>
+                            <p>Diğer kullanıcılardan bildirim al</p>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox" name="ReceiveNotification" />
+                            <span class="switch-indicator"></span>
+                        </label>
+                    </div>
+                    <div class="media">
+                        <div class="media-body">
+                            <p>
+                                <strong>Mesajlar</strong>
+                            </p>
+                            <p>Diğer kullanıcılardan mesaj al</p>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox" name="ReceiveMessage" />
+                            <span class="switch-indicator"></span>
+                        </label>
+                    </div><hr />
+                    <button class="btn btn-block btn-bold btn-primary" type="submit">Kaydet</button>
+                </div>
+                
+            </div>
+        </div>
+    </form>
+</div>

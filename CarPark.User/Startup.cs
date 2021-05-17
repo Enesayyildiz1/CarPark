@@ -26,6 +26,8 @@ using Microsoft.AspNetCore.Identity;
 using CarPark.Entities.Concrete;
 using MongoDB.Driver;
 using AspNetCore.Identity.MongoDbCore.Models;
+using AutoMapper;
+
 
 namespace CarPark.User
 {
@@ -41,7 +43,16 @@ namespace CarPark.User
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //var mapperConfig = new MapperConfiguration(mc =>
+            //{
+            //    mc.AddProfile(new MappingProfile());
+            //});
 
+            //IMapper mapper = mapperConfig.CreateMapper();
+            //services.AddSingleton(mapper);
+
+            //services.AddMvc();
+            services.AddAutoMapper(typeof(Startup));
             services.AddAuthentication(option =>
             {
                 option.DefaultScheme = IdentityConstants.ApplicationScheme;
@@ -88,6 +99,8 @@ namespace CarPark.User
             services.AddScoped(typeof(IRepository<>), typeof(MongoRepositoryBase<>));
             services.AddScoped<IPersonalDal, PersonalDal>();
             services.AddScoped<IPersonalService, PersonalManager>();
+            services.AddScoped<ICityDal, CityDal>();
+            services.AddScoped<ICityService, CityManager >();
             services.Configure<RequestLocalizationOptions>(opt =>
             {
                 var supportedCultures = new List<CultureInfo>

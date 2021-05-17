@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CarPark.User.Controllers;
+using AspNetCore.Identity.MongoDbCore.Models;
 
 namespace CarPark.User.Controllers
 {
@@ -14,11 +15,13 @@ namespace CarPark.User.Controllers
     {
         private readonly UserManager<Personal> _userManager;
         private readonly SignInManager<Personal> _signInManager;
+        private readonly RoleManager<MongoIdentityRole> _mongoIdentityRole;
 
-        public AccountController(UserManager<Personal> userManager, SignInManager<Personal> signInManager)
+        public AccountController(UserManager<Personal> userManager, SignInManager<Personal> signInManager, RoleManager<MongoIdentityRole> mongoIdentityRole)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _mongoIdentityRole = mongoIdentityRole;
         }
 
         [HttpGet]
@@ -45,6 +48,14 @@ namespace CarPark.User.Controllers
 
                 if (result.Succeeded)
                 {
+                    var role = new MongoIdentityRole
+                    {
+                        Name = "user",
+                        NormalizedName="USER"
+                    };
+                    var resultRole = await _mongoIdentityRole.CreateAsync(role);
+                    await _userManager.AddToRoleAsync(user, "user");
+
                     return RedirectToAction("Login");
 
                 }
@@ -78,6 +89,10 @@ namespace CarPark.User.Controllers
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("login");
+        }
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
     }
 }
