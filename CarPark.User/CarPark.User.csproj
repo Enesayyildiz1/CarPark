@@ -25,4 +25,8 @@
     <ProjectReference Include="..\CarPark.Models\CarPark.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Media\Personals\" />
+  </ItemGroup>
+
 </Project>
