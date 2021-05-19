@@ -32,11 +32,24 @@ namespace CarPark.User.Controllers
             _mapper = mapper;
             _env = env;
         }
-        [Authorize(Roles ="Admin")]
+        [Authorize(Roles ="user")]
         public IActionResult Index()
         {
            var list= _personalManager.GetAll();
             return View(list.Result);
+        }
+        public IActionResult List()
+        {
+
+            var list = _personalManager.GetAll();
+            
+            return View(list);
+        }
+        [Route("getroles/{id}")]
+        public async Task<IActionResult> GetRoles(string id)
+        {
+            var result = _personalManager.GetPersonalRoles(id);
+            return Json(1);
         }
         [HttpGet]
         public async Task<IActionResult> Settings()

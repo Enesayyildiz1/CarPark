@@ -32,5 +32,11 @@ namespace CarPark.DataAccess.Concrete
             var personals = _collection.AsQueryable().Where(a => a.Password =="1345").ToList();
             return personals;
         }
+
+        public List<Personal> GetRoles(string id)
+        {
+            var roles = _collection.AsQueryable().Where(x => x.Id.ToString() == id).ToList();
+            return roles;
+        }
     }
 }

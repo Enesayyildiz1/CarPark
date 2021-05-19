@@ -1,0 +1,91 @@
+﻿@model CarPark.Core.Models.GetManyResult<CarPark.Entities.Concrete.Personal>
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="main-content">
+    <div class="card">
+        <h4 class="card-title"><strong>Personel</strong> Listesi</h4>
+        <div class="card-body">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <table class="table table-separated">
+                            <thead>
+                                <tr>
+
+                                    <th>Ad Soyad</th>
+                                    <th>Kullanıcı Adı</th>
+                                    <th>Email</th>
+                                    <th>Şehir</th>
+                                    <th class="text-center w-100px">İşlemler</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @foreach (var item in Model.Result)
+                                {
+                                    <tr>
+
+                                        <td>@(item.Name+" "+item.Surname)</td>
+                                        <td>@item.UserName</td>
+                                        <td>@item.Email</td>
+                                        <td>@item.CityName</td>
+                                        <td class="text-right table-actions">
+                                            <button onclick="roleAdd('@item.Id')" class ="btn btn-xs btn-danger">Rol İşlem</button>
+                                        </td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Rol Güncelle</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                <button type="button" class="btn btn-primary">Kaydet</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{ 
+<script>
+    function roleAdd(id) {
+        $("#exampleModalCenter").modal("show");
+        $.ajax({
+            url: "/getroles/" + id,
+            type: "GET",
+            success: function (data) {
+
+            }
+        })
+    }
+</script>
+}
+

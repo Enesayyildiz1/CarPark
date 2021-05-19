@@ -6,7 +6,7 @@
 
 <div class="main-content">
     <form class="row" asp-controller="Personals" asp-action="Settings"
-          asp-all-route-data-ajax-failure="OnFailed" 
+           asp-all-route-data-ajax-failure="onFailed"
           data-ajax-success="onSuccess"
           data-ajax-begin="onBegin"
           data-ajax="true"
@@ -95,7 +95,7 @@
                         }
 
                     <div class="flex-grow">
-                        <h5 asp-for="nameSurnameArea">@(Model.Name +" "+Model.Surname)</h5>
+                        <h5 id="nameSurnameArea">@(Model.Name +" "+Model.Surname)</h5>
                         <div class="flexbox justify-content-start mt-16">
                             <div class="file-group file-group-inline">
                                 <button class="btn btn-sm btn-bold btn-secondary file-browser" type="button">Değiştir</button>

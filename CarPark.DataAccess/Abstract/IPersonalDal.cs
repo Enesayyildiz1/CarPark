@@ -9,5 +9,6 @@ namespace CarPark.DataAccess.Abstract
     public interface IPersonalDal:IRepository<Personal>
     {
         List<Personal> GetPersonalsWithRoles();
+        List<Personal> GetRoles(string id);
     }
 }

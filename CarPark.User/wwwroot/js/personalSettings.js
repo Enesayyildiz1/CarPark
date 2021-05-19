@@ -22,19 +22,21 @@ var onFailed = function () {
 var onSuccess = function (response) {
     $.LoadingOverlay("hide");
     if (response.success) {
+       
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Something went wrong!',
+            footer: '<a href>Why do I have this issue?</a>'
+        })
         $("#nameSurnameArea").html(response.personal.name + " " + response.personal.surname);
-        Swal.fire(
-            'Başarılı',
-            response.message,
-            'success'
-        )
     }
     else {
         Swal.fire(
-            'Hata!',
+            'Hata Oluştu!',
             response.message,
             'error'
-        )
+        );
     }
 
 }
