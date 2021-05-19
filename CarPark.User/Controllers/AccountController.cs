@@ -50,11 +50,17 @@ namespace CarPark.User.Controllers
                 {
                     var role = new MongoIdentityRole
                     {
-                        Name = "user",
-                        NormalizedName="USER"
+                        Name = "admin",
+                        NormalizedName = "ADMIN"
+
                     };
+
+                  
+
+
                     var resultRole = await _mongoIdentityRole.CreateAsync(role);
-                    await _userManager.AddToRoleAsync(user, "user");
+
+                    await _userManager.AddToRoleAsync(user, "admin");
 
                     return RedirectToAction("Login");
 

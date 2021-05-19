@@ -32,11 +32,39 @@ namespace CarPark.Business.Concrete
         }
 
         public async Task<GetOneResult<PersonalMainRoles>> GetPersonalRoles(string id)
-        {
-            var personal =await _personalDal.GetByIdAsync(id);
-            var personalRoles = personal.Entity.Roles;
+        {   var result = new GetOneResult<PersonalMainRoles>();
+            try
+            {
             var roles = _roleManager.Roles != null ? _roleManager.Roles.ToList() : null;
-            return roles;
+            
+            var personal =await _personalDal.GetByIdAsync(id,"guid");
+
+            var personalRoles = personal != null && personal.Entity != null && personal.Entity.Roles != null ?
+                personal.Entity.Roles.Select(x => new PersonalRoles
+                {
+                    Id = x.ToString(),
+                    Name = roles.FirstOrDefault(y => y.Id == x).Name
+                }).ToList() : null;
+
+
+         
+            result.Entity = new PersonalMainRoles
+            {
+                Roles = roles,
+                PersonalRoleList = personalRoles,
+
+
+            };
+            result.Success = true;
+            }
+            catch (Exception ex)
+            {
+
+                result.Entity = null;
+                result.Success = false;
+            }
+           
+            return result;
         }
     }
 }
