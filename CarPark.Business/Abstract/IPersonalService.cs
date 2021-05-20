@@ -12,5 +12,6 @@ namespace CarPark.Business.Abstract
     {
         GetManyResult<Personal> GetAll();
        Task< GetOneResult<PersonalMainRoles>> GetPersonalRoles(string id);
+        Task<GetOneResult<Personal>> UpdatePersonalRoles(string personalId, string[] personalRoleList);
     }
 }

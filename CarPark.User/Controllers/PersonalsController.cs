@@ -55,7 +55,8 @@ namespace CarPark.User.Controllers
         [Route("/update/personal/roles")]
         public async Task<IActionResult> UpdatePersonalRoles(string personalId,string[] personalRoleList)
         {
-            return Json(null);
+            var updated = await _personalManager.UpdatePersonalRoles(personalId, personalRoleList);
+            return Json(updated);
         }
         [HttpGet]
         public async Task<IActionResult> Settings()

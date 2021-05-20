@@ -128,9 +128,24 @@
             data: {
                 personalId: personalId, personalRoleList: personalRoleList
             },
-            success: function (data) {
-
-
+            success: function (response) {
+                $("#modal-body").LoadingOverlay("hide");
+                $("#exampleModalCenter").modal("hide");
+                if (response.success) {
+                    Swal.fire(
+                        'İşlem Başarılı!',
+                        response.message,
+                        'success'
+                    )
+                }            
+                else {
+                    Swal.fire(
+                        'HATA!',
+                        response.message,
+                        'error'
+                    )
+                }
+              
             },
             error: function (data) {
                 $("#modal-body").LoadingOverlay("hide");

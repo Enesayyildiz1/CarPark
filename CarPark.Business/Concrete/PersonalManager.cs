@@ -66,5 +66,17 @@ namespace CarPark.Business.Concrete
            
             return result;
         }
+
+        public async Task<GetOneResult<Personal>> UpdatePersonalRoles(string personalId, string[] personalRoleList)
+        {
+            var personal = await _personalDal.GetByIdAsync(personalId, "guid");
+            var roles = personalRoleList.Select(x => new Guid(x)).ToList();
+            personal.Entity.Roles = null;
+            personal.Entity.Roles = roles;
+            var result = await _personalDal.ReplaceOneAsync(personal.Entity, personalId, "guid");
+            result.Message = $"{personal.Entity.Name}{personal.Entity.Surname} adlı personelin rol güncellenmesi gerçekleşti.";
+            result.Success = true;
+            return result;
+        }
     }
 }
