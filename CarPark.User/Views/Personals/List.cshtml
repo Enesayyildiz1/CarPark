@@ -5,14 +5,11 @@
 }
 
 
-<div class="main-content">
-    <div class="card">
-        <h4 class="card-title"><strong>Personel</strong> Listesi</h4>
-        <div class="card-body">
-            <div class="col-lg-12">
-                <div class="card">
-                    <div class="card-body">
-                        <table class="table table-separated">
+
+    
+<h5> <strong>Personel</strong> Listesi</h5>
+        
+                        <table  id="table-personal" class="table table-bordered" style="width:100%" >
                             <thead>
                                 <tr>
 
@@ -41,13 +38,9 @@
 
                             </tbody>
                         </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+                 
+             
+          
 
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
@@ -115,6 +108,9 @@
             }
         })
     }
+    $(document).ready(function () {
+        $('#table-personal').DataTable();
+    });
     $("#btnSaveRoles").on('click', function () {
         var personalId = $("#personalId").val();
         var personalRoleList = [];
